@@ -24,6 +24,12 @@ Route::put('api/customers/update/{id}' , 'CustomerController@update_customer');
 Route::delete('api/customers/delete/{id}' , 'CustomerController@delete_customer');
 
 
+Route::get('api/products/get_all' , 'ProductController@get_all_products');
+Route::post('api/products/add' , 'ProductController@add_product');
+Route::put('api/products/update/{id}' , 'ProductController@update_product');
+Route::delete('api/products/delete/{id}' , 'ProductController@delete_product');
+
+
 
 
 /*

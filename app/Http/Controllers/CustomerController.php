@@ -8,7 +8,7 @@ use Automattic\WooCommerce\Client;
 
 class CustomerController extends Controller 
 {
-    public $Cnx;
+    private $Cnx;
 	public function  __construct()
     {
 		$woocommerceClient = new Client(

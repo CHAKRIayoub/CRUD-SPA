@@ -10,7 +10,6 @@
 
         <!-- Fonts -->
 
-
         <!-- Styles -->
 
         <link href="{!! asset('css/boostwatch/paper/bootstrap.min.css') !!}" rel="stylesheet" type="text/css" />
@@ -21,7 +20,6 @@
 
         <div id="app">
 
-           
                 <nav class="navbar navbar-default fixedintop">
 
     <div class="container-fluid">
